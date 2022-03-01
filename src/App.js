@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import BaiTapTangGiamFont from "./BaiTapTangGiamFont/BaiTapTangGiamFont";
+import HandlerEventRCC from "./EventHandler/HandlerEventRCC";
+import EventHandler from "./EventHandler/HandlerEventRCC";
+import LoginForm from "./EventHandler/LoginForm";
+import RenderWithMap from "./RenderWithMap/RenderWithMap";
+import BaiTapChonXe from "./StateDemo/BaiTapChonXe/BaiTapChonXe";
+import StyleComponent from "./StyleComponent/StyleComponent";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <HandlerEventRCC /> */}
+      {/* <LoginForm /> */}
+      {/* <StyleComponent /> */}
+      {/* <BaiTapChonXe /> */}
+      {/* <BaiTapTangGiamFont /> */}
+      <RenderWithMap />
     </div>
   );
 }
